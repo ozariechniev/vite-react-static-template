@@ -3,7 +3,7 @@
 ## Features
 
 - [x] **Vite** `v6`
-- [x] **React** `v18`
+- [x] **React** `v19`
 - [x] **TypeScript** `v5`
 - [x] **TailwindCSS** `v3`
 - [x] **Lint-staged + Conventional Commits**
