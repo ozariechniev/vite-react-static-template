@@ -9,17 +9,7 @@
   "useTabs": false,
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
-  "importOrder": [
-    "^react(.*)$",
-    "<THIRD_PARTY_MODULES>",
-    "^@/pages(.*)$",
-    "^@/layout(.*)$",
-    "^@/components(.*)$",
-    "^@/constants(.*)$",
-    "^@/lib(.*)$",
-    "^[./]",
-    "^.+\\.css$"
-  ],
+  "importOrder": ["^react(.*)$", "<THIRD_PARTY_MODULES>", "^[./]"],
   "tailwindPreserveDuplicates": false,
   "tailwindPreserveWhitespace": false,
   "plugins": [
