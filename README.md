@@ -5,7 +5,7 @@
 - [x] **Vite** `v6`
 - [x] **React** `v19`
 - [x] **TypeScript** `v5`
-- [x] **TailwindCSS** `v3`
+- [x] **TailwindCSS** `v4`
 - [x] **Lint-staged + Conventional Commits**
 
 ## Code Quality Tools
