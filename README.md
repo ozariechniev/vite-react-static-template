@@ -1,4 +1,6 @@
-# Vite | React | TS | TailwindCSS
+# Vite ⋅ React ⋅ TypeScript ⋅ TailwindCSS template
+
+> A simple and minimalistic setup to get started with a new project.
 
 ## Features
 
@@ -6,8 +8,6 @@
 - [x] [**React**](https://react.dev/) `v19`
 - [x] [**TypeScript**](https://www.typescriptlang.org/) `v5`
 - [x] [**TailwindCSS**](https://tailwindcss.com/) `v4`
-- [x] [**Lint-staged**](https://www.npmjs.com/package/lint-staged)
-- [x] [**Conventional Commits**](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ### Code Quality Tools
 
@@ -18,14 +18,16 @@
 - [x] [**Prettier**](https://prettier.io/)
   - [x] [**@trivago/prettier-plugin-sort-imports**](https://www.npmjs.com/package/@trivago/prettier-plugin-sort-imports) - Sorts import declarations within module.
   - [x] [**prettier-plugin-tailwindcss**](https://www.npmjs.com/package/prettier-plugin-tailwindcss) - Sorts TailwindCSS classes.
+- [x] [**Lint-staged**](https://www.npmjs.com/package/lint-staged)
+- [x] [**Conventional Commits**](https://www.conventionalcommits.org/en/v1.0.0/)
 
-### Packages
+### Additional packages
 
-- [x] **class-variance-authority**
-- [x] **clsx**
-- [x] **tailwind-merge**
-- [x] **tailwindcss-animate**
-- [x] **vite-plugin-svgr**
+- [x] [**class-variance-authority**](https://www.npmjs.com/package/class-variance-authority) - A utility for creating class variance authority.
+- [x] [**clsx**](https://www.npmjs.com/package/clsx) - A tiny utility for constructing className strings conditionally.
+- [x] [**tailwind-merge**](https://www.npmjs.com/package/tailwind-merge) - Utility function to efficiently merge Tailwind CSS classes in JS without style conflicts.
+- [x] [**tailwindcss-animate**](https://www.npmjs.com/package/tailwindcss-animate) - A Tailwind CSS plugin for creating animations.
+- [x] [**vite-plugin-svgr**](https://www.npmjs.com/package/vite-plugin-svgr) - Vite plugin to transform SVGs into React components.
 
 ## Installation
 
