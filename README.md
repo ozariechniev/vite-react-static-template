@@ -39,6 +39,8 @@ npm install
 
 git add .
 git commit -m "chore: initial commit"
+
+echo 'VITE_APP_TITLE="Vite | React | TS | Tailwind"' > .env
 ```
 
 ## [Commit Message Guidelines](https://www.conventionalcommits.org/en/v1.0.0/)
