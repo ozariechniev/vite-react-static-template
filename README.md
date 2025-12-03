@@ -37,7 +37,7 @@ rm -rf .git
 
 git init -b main
 
-npm install
+pnpm install
 
 git add .
 git commit -m "chore: initial commit"
@@ -48,9 +48,9 @@ echo 'VITE_APP_TITLE="Vite | React | TS | Tailwind"' > .env
 ## Usage
 
 ```bash
-npm run dev     # Start the development server
-npm run build   # Build the project
-npm run lint    # Run ESLint
-npm run format  # Run Prettier
-npm run preview # Preview the production build
+pnpm run dev     # Start the development server
+pnpm run build   # Build the project
+pnpm run lint    # Run ESLint
+pnpm run format  # Run Prettier
+pnpm run preview # Preview the production build
 ```
