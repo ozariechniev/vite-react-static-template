@@ -4,5 +4,11 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
   },
+  "editor.quickSuggestions": {
+    "strings": "on"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
   "tailwindCSS.classFunctions": ["cn", "cva"]
 }
