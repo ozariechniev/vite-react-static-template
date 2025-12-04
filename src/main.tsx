@@ -7,6 +7,6 @@ import './index.css';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Welcome />
+    <Welcome className="flex min-h-svh items-center justify-center" />
   </StrictMode>
 );
