@@ -5,7 +5,7 @@
 ## Features
 
 - [x] [**Vite**](https://vite.dev/) `v7`
-- [x] [**React**](https://react.dev/) `v19.2.0`
+- [x] [**React**](https://react.dev/) `v19`
 - [x] [**TypeScript**](https://www.typescriptlang.org/) `v5`
 - [x] [**TailwindCSS**](https://tailwindcss.com/) `v4`
 
