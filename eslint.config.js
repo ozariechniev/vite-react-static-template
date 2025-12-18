@@ -1,4 +1,5 @@
 import js from '@eslint/js';
+import pluginRouter from '@tanstack/eslint-plugin-router';
 import eslintConfigPrettier from 'eslint-config-prettier/flat';
 import jsxA11y from 'eslint-plugin-jsx-a11y';
 import reactHooks from 'eslint-plugin-react-hooks';
@@ -17,6 +18,7 @@ export default defineConfig([
       reactHooks.configs.flat.recommended,
       reactRefresh.configs.vite,
       jsxA11y.flatConfigs.recommended,
+      pluginRouter.configs['flat/recommended'],
       eslintConfigPrettier,
     ],
     languageOptions: {
