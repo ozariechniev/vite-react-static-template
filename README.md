@@ -8,6 +8,7 @@
 - [x] [**React**](https://react.dev/) `v19`
 - [x] [**TypeScript**](https://www.typescriptlang.org/) `v5`
 - [x] [**TailwindCSS**](https://tailwindcss.com/) `v4`
+- [x] [**TanStack Router**](https://tanstack.com/router) `v1`
 
 ### Code Quality Tools
 
@@ -33,6 +34,8 @@
 
 ```bash
 git clone https://github.com/ozariechniev/vite-react-static-template.git .
+git checkout tanstack-router
+
 rm -rf .git
 
 git init -b main
