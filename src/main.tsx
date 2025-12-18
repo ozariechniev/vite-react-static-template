@@ -1,12 +1,27 @@
 import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import ReactDOM from 'react-dom/client';
 
-import Welcome from '@/components/welcome.tsx';
+import { RouterProvider, createRouter } from '@tanstack/react-router';
 
 import './index.css';
+import { routeTree } from './routeTree.gen';
 
-createRoot(document.getElementById('root')!).render(
-  <StrictMode>
-    <Welcome className="flex min-h-svh items-center justify-center" />
-  </StrictMode>
-);
+const router = createRouter({ routeTree });
+
+declare module '@tanstack/react-router' {
+  interface Register {
+    router: typeof router;
+  }
+}
+
+const rootElement = document.getElementById('root')!;
+
+if (!rootElement.innerHTML) {
+  const root = ReactDOM.createRoot(rootElement);
+
+  root.render(
+    <StrictMode>
+      <RouterProvider router={router} />
+    </StrictMode>
+  );
+}
